@@ -24,8 +24,3 @@ The simulation shows two trajectories with initial angles of 20 and 21 degree:
 21 trajectory(green): A completely different path
 
 Despite only 1 degree difference, the paths diverge significantly - demonstrating sensitive dependence on initial conditions(the Butterfly Effect).
-
-----------------------------------------
-
-this problem was in "More Physics With Matlab by Dan Green"
-which i wrote the its code with python
