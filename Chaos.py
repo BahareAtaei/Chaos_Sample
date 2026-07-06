@@ -58,6 +58,7 @@ def reflect_points(angle_deg, bounces=20):
     
     return points
 
+#-------------------------------------------------------------
 # function for plot trajectory
 def plot_trajectory(angle_deg, bounces=20, ax = None, color='b', label=None):
 
@@ -94,22 +95,20 @@ def plot_trajectory(angle_deg, bounces=20, ax = None, color='b', label=None):
     
     return points
 
-# main function
+#------------------------------------------------
+bounces = 20
+fig, axes = plt.subplots(1, 2, figsize=(14, 6))
 
-if __name__ == "__main__":
-    bounces = 20
-    fig, axes = plt.subplots(1, 2, figsize=(14, 6))
+#20 degree
+points_20_degree = plot_trajectory(20, bounces, ax=axes[0], color='blue')
+axes[0].set_title('20 bounces, start_angle = 20 degree')
 
-    #20 degree
-    points_20_degree = plot_trajectory(20, bounces, ax=axes[0], color='blue')
-    axes[0].set_title('20 bounces, start_angle = 20 degree')
+ #21 degree
+points_21_degree = plot_trajectory(21, bounces, ax=axes[1], color='green')
+axes[1].set_title('20 bounces, start_angle = 21 degree')
 
-    #21 degree
-    points_21_degree = plot_trajectory(21, bounces, ax=axes[1], color='green')
-    axes[1].set_title('20 bounces, start_angle = 21 degree')
+axes[0].legend(loc='upper right')
+axes[1].legend(loc='upper right')
 
-    axes[0].legend(loc='upper right')
-    axes[1].legend(loc='upper right')
-
-    plt.tight_layout()
-    plt.show()
+plt.tight_layout()
+plt.show()
