@@ -1,4 +1,4 @@
-# Chaos in Circular Billiards
+# Chaos in Circular Billiards (by Python)
 ## More Physics with Matlab By Dan Green
 ## CHAPTER1 / MATHEMATICS / 1.1CHAOS
 
