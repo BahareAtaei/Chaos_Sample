@@ -90,8 +90,7 @@ def plot_trajectory(angle_deg, bounces=20, ax = None, color='b', label=None):
     #adjusting axes
     ax.set_aspect('equal')
     ax.grid(True, alpha=0.5)
-    if label:
-        ax.set_title(label)
+    
     
     return points
 
