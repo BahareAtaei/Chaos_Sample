@@ -34,7 +34,7 @@ def reflect_points(angle_deg, bounces=20):
             break
 
         # time for near point
-        t = (-b-np.sqrt(delta))/(2*a)
+        t = (-b+np.sqrt(delta))/(2*a)
 
         # add the new points to lisd
         x = x0 + vx*t
