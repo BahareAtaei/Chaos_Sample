@@ -43,8 +43,8 @@ def reflect_points(angle_deg, bounces=20):
         
         
         # adjusting points and velocity for next step
-        v = np.random.random(2)*20
-        vx, vy = v[0], v[1]
+        v = np.random.uniform(0, 2*np.pi)
+        vx, vy = np.cos(v), np.sin(v)
         x0, y0 = x, y
     
     return points
