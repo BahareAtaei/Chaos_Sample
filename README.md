@@ -1,6 +1,10 @@
 # Chaos in Circular Billiards (by Python)
 ## More Physics with Matlab By Dan Green
 ## CHAPTER1 / MATHEMATICS / 1.1CHAOS
+#-----------------------------------------
+in Chaos.py i used the reflection rule
+in Chaos2.py i used random direction after each colliding
+#-------------------------------------------
 
 This is a simple example of a Chaos System demonstrating the motion of a ball in a circular environment.
 
