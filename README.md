@@ -1,6 +1,10 @@
 # Chaos in Circular Billiards (by Python)
-## More Physics with Matlab By Dan Green
-## CHAPTER1 / MATHEMATICS / 1.1CHAOS
+
+Python implementation inspired by the concepts presented in
+"More Physics with MATLAB" by Dan Green.
+
+This repository contains my own implementations for learning purposes.
+
 
 
 ### in Chaos.py i used the reflection rule
